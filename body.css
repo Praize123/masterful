@@ -1,0 +1,44 @@
+.row{
+    display: flex;
+   }
+   .side{
+    width: 20%;
+    margin-left: 10px;
+    color: grey;
+    /* border-right: 3px solid grey;
+    border-bottom: 3px solid grey; */
+    padding: 10px;
+    
+   }
+   .false{
+    background-color: grey;
+    width: 80%;
+    color: black;
+   }
+   .main{
+    color: grey;
+    width: 45%;
+    background-color: honeydew;
+   }
+   .flex{
+    display: flex;
+    justify-content: space-around;
+   }
+   .row::after{
+    content: "";
+    clear: both;
+    display: table;
+   }
+   .footer{
+    color: black;
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+   }
+   .footer h5{
+    font-family: GENISO;
+   }

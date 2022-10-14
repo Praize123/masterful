@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.header{
+    background-color: gray;
+    padding: 15px;
+}
+.header h3{
+    text-align: center;
+    font-family: Matura MT Script Capitals;
+    font-size: 30px;
+    transition: color 3s;
+}
+.header h3:hover{
+    color: white;
+}
